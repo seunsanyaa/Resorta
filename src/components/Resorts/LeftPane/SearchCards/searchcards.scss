@@ -3,19 +3,109 @@
 }
 
 .imageSection{
-  width: 100%;
+width: 100%;
   object-fit: cover;
-  height: 15vw;
 
+  text-align: left;
+
+  //display: block;
+  //margin-left: 3em;
 }
 
-.searchCards{
-  display: grid;
-  grid-template-columns: 1.2fr 2fr;
 
-
-}
 
 .searchCards{
   border: 1px solid #000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+border-radius: 1.5em;
+  margin-top: 2.5em;
+}
+
+.searchCards .pane{
+  flex: 1;
+}
+
+.pane .houseImage{
+  width: 60%;
+}
+.information{
+  width: 100%;
+
+  margin-left: -10em;
+ margin-top: 0.5em;
+  margin-right: 2.5em;
+}
+
+.information h3{
+  font-size: 1.3em;
+}
+.resortLocation{
+  padding-top: 1.4em;
+  font-size: 1.1em;
+  color: dimgrey;
+}
+.icons svg{
+  padding-top: 1.5em;
+  padding-right: 1.5em;
+}
+.smallInfo >*{
+  display: block;
+}
+
+.smallInfo{
+  padding-top: 0.5em;
+  display:inline-block;
+}
+.smallInfoText{
+  font-size: 1.1em;
+//padding-left: 0.6em;
+  color: dimgrey;
+  padding-top: 1em;
+}
+.smallInfoText .text{
+padding-left: 0.5em;
+}
+.bottomSection>*{
+  display: inline;
+
+}
+
+.bottomSection{
+  padding-top: 1em;
+}
+
+.price>*{
+  display: inline;
+}
+.priceFee{
+
+ font-family: "Gilroy Semi Bold";
+}
+.perNight{
+  padding-left: 1.25em;
+  font-family: "Gilroy Regular";
+  color: darkgray;
+font-size: 1.25em;
+}
+
+.bookings>*{
+  display: inline;
+}
+
+.bookings{
+  padding-left: 2em;
+}
+
+
+.bookings .book{
+ color: #FF9C0F;
+  font-size: 1.4em;
+  padding-left: 1em;
+}
+
+.bottomSection svg{
+  padding-top: 1.2em;
+  padding-left: 2em;
 }
