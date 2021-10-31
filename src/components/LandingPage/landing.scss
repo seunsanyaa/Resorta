@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'Gilroy Semi Bold';
+  src: url("https://res.cloudinary.com/seunsanyaa/raw/upload/v1622455757/Gilroy-Semibold_ex64if.ttf");
+}
+@font-face {
+  font-family: 'Gilroy Regular';
+  src: url("https://res.cloudinary.com/seunsanyaa/raw/upload/v1622455595/Gilroy-Regular_qlww39.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.landingPage{
+  background: black;
+  color: #FFFFFF;
+  min-height: 100vh;
+  //border-radius: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+
+.landingPageGrid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top:8em;
+  padding: 0;
+
+}
+
+.landingPageGrid .box{
+  flex: 1;
+}
+.leftSide{
+  text-align: left;
+  width: 100%;
+  display: block;
+  margin-left: 3em;
+
+}
+.leftSide>* ,button.exploreNow{
+  display:inline-block;
+  color: white;
+
+
+
+}
+
+.bigParagraph{
+  font-size: 2.7em;
+  //max-width: 14em;
+  font-family: "Gilroy Semi Bold";
+  padding-right:0;
+}
+.smallParagraph{
+  font-size: 1.1em;
+  font-family: "Gilroy Regular";
+
+padding-right: 13em;
+  padding-top: 3em;
+}
+//
+.exploreNow{
+  //margin-top: -0.65em;
+  //float: right;
+  background: #FF9C0F;
+  color: #FFFFFF;
+  height: 3em;
+  width: 10em;
+  border-radius: 0.7em;
+  font-size: 1em;
+  cursor: pointer;
+
+  margin-top: 4em;
+}
+
+
+
+button{
+  background: unset;
+  border: unset;
+}
+
+
+.rightSide{
+
+  width: 100%;
+position: relative;
+
+}
+.rightSide img{
+  padding-left: 8em;
+  opacity: 80%;
+
+
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 56%;
+  transform: translate(-50%, -50%);
+}
+
+.playButton{
+  position: absolute;
+  top: 50%;
+  left: 56%;
+  transform: translate(-50%, -50%);
+}

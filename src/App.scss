@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Gilroy Regular';
+  src: url("https://res.cloudinary.com/seunsanyaa/raw/upload/v1622455595/Gilroy-Regular_qlww39.ttf");
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app{
+background:whitesmoke;
+  font-family: "Gilroy Regular";
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr;
+
+}
+
