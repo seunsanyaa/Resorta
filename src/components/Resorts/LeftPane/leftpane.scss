@@ -1,0 +1,23 @@
+.leftPane{
+ margin: 0;
+  padding: 0;
+}
+.searchResultHeader{
+ display: flex;
+}
+.searchResultHeader svg{
+
+ padding-top: 0.4em;
+ padding-left: 0.8em;
+}
+.headingName{
+ font-size: 2em;
+ font-family: "Gilroy Semi Bold";
+}
+
+.results{
+ font-size: 1em;
+ padding-top: 0.9em;
+ color: #959595;
+ padding-left: 0.25em;
+}
