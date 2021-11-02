@@ -5,7 +5,7 @@
 .imageSection{
 width: 100%;
   object-fit: cover;
-
+min-height: 100%;
   text-align: left;
 
   //display: block;
@@ -15,12 +15,13 @@ width: 100%;
 
 
 .searchCards{
-  border: 1px solid #000;
+  border: 0px solid whitesmoke;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  box-shadow: 0px 0px 37px lightgrey;
 border-radius: 1.5em;
   margin-top: 2.5em;
+background: whitesmoke;
 }
 
 .searchCards .pane{
@@ -28,13 +29,14 @@ border-radius: 1.5em;
 }
 
 .pane .houseImage{
-  width: 60%;
+
+  min-height: 100%;
 }
 .information{
   width: 100%;
 
-  margin-left: -10em;
- margin-top: 0.5em;
+  margin-left: -7em;
+ margin-top: 1.5em;
   margin-right: 2.5em;
 }
 
@@ -42,7 +44,7 @@ border-radius: 1.5em;
   font-size: 1.3em;
 }
 .resortLocation{
-  padding-top: 1.4em;
+  padding-top: 1em;
   font-size: 1.1em;
   color: dimgrey;
 }
@@ -73,6 +75,7 @@ padding-left: 0.5em;
 }
 
 .bottomSection{
+
   padding-top: 1em;
 }
 
@@ -84,7 +87,7 @@ padding-left: 0.5em;
  font-family: "Gilroy Semi Bold";
 }
 .perNight{
-  padding-left: 1.25em;
+  padding-left: 0.7em;
   font-family: "Gilroy Regular";
   color: darkgray;
 font-size: 1.25em;
@@ -95,7 +98,7 @@ font-size: 1.25em;
 }
 
 .bookings{
-  padding-left: 2em;
+  padding-left: 1em;
 }
 
 
@@ -106,6 +109,29 @@ font-size: 1.25em;
 }
 
 .bottomSection svg{
+  display: inline-flex;
   padding-top: 1.2em;
   padding-left: 2em;
+}
+
+.titleAndRatings>*{
+  display: inline;
+}
+.ratings button{
+  display: inline-flex;
+
+  margin-left: 6.5em;
+  background-color: #031733;
+width: 5em;
+  height: 2em;
+  color: white;
+  font-size: 1.17em;
+  //vertical-align: center;
+  justify-content: center; /* center the content horizontally */
+  align-items: center;
+  border-radius: 10px;
+}
+.ratings button span svg{
+padding-left: 1em;
+vertical-align: center;
 }

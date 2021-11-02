@@ -7,6 +7,8 @@ const ResortsPage= () =>{
             <div className='resortsPage'>
 <LeftPane/>
 
+
+<RightPane/>
             </div>
 
     )

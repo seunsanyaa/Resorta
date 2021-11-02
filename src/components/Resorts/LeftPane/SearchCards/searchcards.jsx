@@ -1,5 +1,5 @@
 import './searchcards.scss'
-import {wifi,location,bath,dot,line} from "./icon";
+import {wifi,location,bath,dot,line,star} from "./icon";
 
 const SearchCards= () =>{
     return(
@@ -10,9 +10,18 @@ const SearchCards= () =>{
                     </div>
 
                     <div className='information pane'>
-
+<div className='titleAndRatings'>
                         <h3 className='rersortName'>Cheval Blank Randhelli</h3>
+    <div className='ratings'>
+
+        <button> 4.5 <span>{star}</span></button>
+    </div>
+</div>
                         <h4 className='resortLocation'>North central province, Felhindoo</h4>
+
+
+
+
                         <div className='icons'>
                         {wifi} {location} {bath}
                         </div>
@@ -33,6 +42,7 @@ const SearchCards= () =>{
                         </div>
 
                         <div className='bottomSection'>
+
                                     <div className='price'>
                                             <h3 className='priceFee'>$500</h3>
                                             <p className='perNight'>Per Night</p>

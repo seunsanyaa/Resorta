@@ -13,12 +13,14 @@
 }
 
 .landingPage{
-  background: black;
+  background: url("https://res.cloudinary.com/seunsanyaa/image/upload/v1635785957/MacBook_Pro_-_1_10_u8rkg3.png");
   color: #FFFFFF;
   min-height: 100vh;
   //border-radius: 1em;
   padding-left: 2em;
   padding-right: 2em;
+  background-size: 80%;
+  opacity:98%;
 }
 
 
@@ -26,7 +28,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top:8em;
+  margin-top:6em;
   padding: 0;
 
 }
@@ -89,6 +91,7 @@ button{
 
   width: 100%;
 position: relative;
+
 
 }
 .rightSide img{
