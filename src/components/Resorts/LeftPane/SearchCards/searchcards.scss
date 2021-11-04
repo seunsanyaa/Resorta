@@ -3,9 +3,9 @@
 }
 
 .imageSection{
-width: 100%;
+width: 20px;
   object-fit: cover;
-min-height: 100%;
+  height:auto;
   text-align: left;
 
   //display: block;
@@ -18,19 +18,28 @@ min-height: 100%;
   border: 0px solid whitesmoke;
   display: flex;
   flex-direction: row;
-  box-shadow: 0px 0px 37px lightgrey;
+  box-shadow: 0px 0px 7px lightgrey;
 border-radius: 1.5em;
+
+  //border-top-left-radius: 2em;
   margin-top: 2.5em;
 background: whitesmoke;
 }
 
 .searchCards .pane{
   flex: 1;
+  //display: grid;
+  //grid-template-columns:  fr 6fr
 }
 
 .pane .houseImage{
+object-fit: cover;
+  //min-height: 100%;
+height: 100%;
+  max-width: 70%;
+border-top-left-radius: 1.5em;
+  border-bottom-left-radius: 1.5em;
 
-  min-height: 100%;
 }
 .information{
   width: 100%;
@@ -38,6 +47,7 @@ background: whitesmoke;
   margin-left: -7em;
  margin-top: 1.5em;
   margin-right: 2.5em;
+  margin-bottom: 1.5em;
 }
 
 .information h3{
