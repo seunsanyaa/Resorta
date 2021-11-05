@@ -2,6 +2,8 @@ import './App.scss'
 import {LandingPage} from "./components";
 import {SearchMenu} from "./components/LandingPage";
 import {ResortsPage} from "./components";
+import {AboutUs} from "./components";
+
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 
 const App = () => {
@@ -10,14 +12,15 @@ const App = () => {
     <div className="app">
 <LandingPage/>
 
-{/*<div className='SecondSection'>*/}
-{/*    hello*/}
-{/*</div>*/}
 
 
-<SearchMenu/>
 
-<ResortsPage/>
+        <SearchMenu/>
+
+        <ResortsPage/>
+
+        <AboutUs/>
+
 
     </div>
 

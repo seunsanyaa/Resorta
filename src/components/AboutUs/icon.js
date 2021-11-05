@@ -1,0 +1,3 @@
+export const worldwideConnect=<img src='https://res.cloudinary.com/seunsanyaa/image/upload/v1636133181/destination_v4kfka.png' alt='Worldwide Connect Image' />
+export const secureTravel=<img src='https://res.cloudinary.com/seunsanyaa/image/upload/v1636133180/shipping_egd7dg.png' alt='Secure Travel Image' />
+export const saveOnTravel=<img src='https://res.cloudinary.com/seunsanyaa/image/upload/v1636133267/bank_gknzwp.png' alt='Save On Image' />
