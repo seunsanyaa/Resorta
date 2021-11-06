@@ -1,0 +1,43 @@
+.images{
+
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+
+.leftImage{
+  width: 27em;
+  object-fit: cover;
+  height:35em;
+  text-align: left;
+margin-right: -3em;
+  //display: block;
+  //margin-left: 3em;
+}
+
+.leftImage img{
+  object-fit: cover;
+  //min-height: 100%;
+  height: 100%;
+  max-width: 80%;
+  border-radius: 1.5em;
+  //border-bottom-left-radius: 1.5em;
+}
+.rightImage{
+  width: 21em;
+  display: grid;
+  grid-template-rows: 2fr 2fr;
+}
+
+.rightImage img{
+  object-fit: cover;
+  //min-height: 100%;
+  height: 100%;
+  max-width: 100%;
+  border-radius: 1.5em;
+  //border-bottom-left-radius: 1.5em;
+}
+
+.bottomImage{
+  padding-top: 2em;
+}

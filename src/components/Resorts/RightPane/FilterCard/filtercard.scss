@@ -11,12 +11,13 @@
 }
 
 .filterElements{
-margin-left: 2em;
-  margin-right: 0em;
+//margin-left: 1.55em;
+//  margin-right: 0em;
+  padding-left: 1.2em;
   padding-top: 1.5em;
   //padding-left:2em;
 text-align: left;
-  padding-bottom: 3em;
+  padding-bottom: 2em;
 
 }
 
@@ -48,12 +49,12 @@ display: inline-flex;
 
 font-family: "Gilroy Semi Bold";
 
-font-size: 1.25em;
+font-size: 1.2em;
 }
 
 .priceRight{
 
-  margin-left: 12.5em;
+  margin-left: 13em;
 }
 
 .frequentlyUsed{
@@ -117,18 +118,18 @@ padding-top: 0.7em;
 
 .filterNumber h4{
 
-  font-size: 1.25em;
+  font-size: 1.2em;
   //padding-left: 2.5em;
 }
 
 .filterNumber h4:not(:first-child):not(:last-child){
 
-  padding-left: 3.4em;
+  padding-left: 3.5em;
 }
 
 .filterNumber h4:last-child{
 
-  padding-left: 2.4em;
+  padding-left: 2.5em;
 }
 
 .reviewScore{
@@ -146,7 +147,7 @@ padding-top: 0.7em;
   border-radius: 5px;
   color: white;
 background: black;
-  margin-left: 11.2em;
+  margin-left: 10.8em;
 }
 
 .reviewScore svg{
@@ -162,7 +163,7 @@ background: black;
 
 .reviewScoresNumber h4{
 
-  font-size: 1.25em;
+  font-size: 1.2em;
 }
 
 .reviewScoresNumber h4:last-child{
@@ -171,5 +172,5 @@ background: black;
   border-radius: 5px;
 
 
-  margin-left: 16.5em;
+  margin-left: 17em;
 }

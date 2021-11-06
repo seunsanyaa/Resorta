@@ -44,18 +44,18 @@ border-top-left-radius: 1.5em;
 .information{
   width: 100%;
 
-  margin-left: -7em;
+  margin-left: -6em;
  margin-top: 1.5em;
-  margin-right: 2.5em;
+  //margin-right: 2.5em;
   margin-bottom: 1.5em;
 }
 
 .information h3{
-  font-size: 1.3em;
+  font-size: 1.15em;
 }
 .resortLocation{
   padding-top: 1em;
-  font-size: 1.1em;
+  font-size: 1em;
   color: dimgrey;
 }
 .icons svg{
@@ -67,11 +67,11 @@ border-top-left-radius: 1.5em;
 }
 
 .smallInfo{
-  padding-top: 0.5em;
+  padding-top: 0em;
   display:inline-block;
 }
 .smallInfoText{
-  font-size: 1.1em;
+  font-size: 1em;
 //padding-left: 0.6em;
   color: dimgrey;
   padding-top: 1em;
@@ -86,7 +86,7 @@ padding-left: 0.5em;
 
 .bottomSection{
 
-  padding-top: 1em;
+
 }
 
 .price>*{
@@ -95,12 +95,13 @@ padding-left: 0.5em;
 .priceFee{
 
  font-family: "Gilroy Semi Bold";
+  //font-size: 0.2em;
 }
 .perNight{
   padding-left: 0.7em;
   font-family: "Gilroy Regular";
   color: darkgray;
-font-size: 1.25em;
+font-size: 1em;
 }
 
 .bookings>*{
@@ -114,7 +115,7 @@ font-size: 1.25em;
 
 .bookings .book{
  color: #FF9C0F;
-  font-size: 1.4em;
+  font-size: 1.2em;
   padding-left: 1em;
 }
 
@@ -132,10 +133,10 @@ font-size: 1.25em;
 
   margin-left: 6.5em;
   background-color: #031733;
-width: 5em;
+width: 4em;
   height: 2em;
   color: white;
-  font-size: 1.17em;
+  font-size: 1.1em;
   //vertical-align: center;
   justify-content: center; /* center the content horizontally */
   align-items: center;

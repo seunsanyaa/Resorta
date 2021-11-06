@@ -1,0 +1,3 @@
+export const leftImage=<img src='https://res.cloudinary.com/seunsanyaa/image/upload/v1636044678/pexels-pixabay-163864_bs5lbk.jpg' alt='firstImage' />
+export const topRightImage=<img src='https://res.cloudinary.com/seunsanyaa/image/upload/v1636044696/pexels-asad-photo-maldives-1450363_fgzkea.jpg' alt='Top Right Image' />
+export const bottomRightImage=<img src='https://res.cloudinary.com/seunsanyaa/image/upload/v1636044640/pexels-asad-photo-maldives-3601426_ar7fms.jpg' alt='Bottom Right Image' />
