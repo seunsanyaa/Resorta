@@ -9,6 +9,7 @@ button{
 }
 
 .searchMenu{
+  position: relative;
   background: white;
 vertical-align: center;
   height: 6em;
@@ -17,7 +18,7 @@ vertical-align: center;
   z-index: 1;
   border-radius: 1em;
 
-  margin-top:-1em;
+  margin-top:-3em;
 }
 
 input{

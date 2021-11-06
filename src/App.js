@@ -10,7 +10,10 @@ const App = () => {
   return (
       <BrowserRouter>
     <div className="app">
+
+
 <LandingPage/>
+
 
 
 

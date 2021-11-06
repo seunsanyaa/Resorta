@@ -9,17 +9,22 @@
   padding: 0;
 
 }
-
+//body{
+//  min-width: 1440px;
+//  margin: 0 auto;
+//  box-sizing: border-box;
+////background: black;
+//}
 
   .app{
     background:whitesmoke;
     font-family: "Gilroy Regular";
-    display: grid;
-    grid-template-rows: 4fr 1fr 5fr 2.5fr 3.7fr 2fr;
+    //display: grid;
+    //grid-template-rows: 4fr 1fr 5fr 2.5fr 3.7fr 2fr;
     //width: 100%;
+    border: unset;
 
   }
-
 
 
 
