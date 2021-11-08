@@ -1,0 +1,70 @@
+.clientReview{
+background: whitesmoke;
+  padding-top: 7em;
+
+  padding-bottom: 7em;
+
+
+}
+
+
+
+.clientReview h1{
+  text-align: center;
+  font-family: "Gilroy Semi Bold";
+  font-size: 2.5em;
+  //font-weight: bolder;
+}
+
+
+.reviewCards{
+
+
+  display: flex;
+  justify-content: space-between;
+  //flex-direction: row;
+  padding-top: 2.5em;
+
+}
+
+
+.reviewCardsDetails{
+  width: 100%;
+background: white;
+text-align: left;
+  padding: 1.5em 0.9em;
+  margin-right: 1em;
+
+  //margin-right: 10em;
+}
+
+
+.paragraph p{
+
+  font-size: 1.1em;
+}
+
+.imageAndName{
+  display: flex;
+padding-top: 3em;
+  //justify-content: center;
+  align-items: center;
+  //display: flex;
+}
+
+.imageAndName h4{
+
+  font-family: "Gilroy Semi Bold";
+  font-size:1.02em;
+//padding-top: 2em;
+//  vertical-align:middle;
+  //justify-content: center;
+
+
+}
+
+.imageAndName img{
+
+width: 4em;
+  border-radius: 5em;
+}

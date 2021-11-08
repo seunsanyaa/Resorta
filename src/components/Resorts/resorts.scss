@@ -1,8 +1,9 @@
 .resortsPage{
-
+  //max-width: 1440px;
+background: whitesmoke;
   display: grid;
   grid-template-columns: 3fr 2fr ;
-  margin-left: 6em;
-  margin-right: 6em;
+  padding-left: 6em;
+ padding-right: 6em;
 padding-top: 5.5em;
 }

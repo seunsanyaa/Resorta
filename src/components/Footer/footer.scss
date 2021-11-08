@@ -1,0 +1,56 @@
+.footer{
+  background: black;
+  color: white;
+  padding-left: 6em;
+  padding-right: 6em;
+}
+
+.topFooter {
+padding-top: 2.5em;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+
+  padding-bottom: 2.5em;
+
+
+}
+
+
+.logoSection svg{
+
+
+  height: 2.1em;
+}
+
+
+.column{
+
+  display: block;
+}
+
+
+.column h4{
+  color: #959595;
+
+}
+.column p{
+  padding-top: 1.3em;
+}
+
+.bottomFooter{
+  background: url("https://res.cloudinary.com/seunsanyaa/image/upload/v1635785957/MacBook_Pro_-_1_10_u8rkg3.png");
+
+  display: flex;
+  justify-content: space-between;
+ margin-top: 3.2em;
+
+}
+
+.bottomFooter h4{
+  font-family: "Gilroy Regular";
+  font-size: 1em;
+}
+
+.socials svg{
+  padding-left: 2em;
+}

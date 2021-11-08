@@ -1,0 +1,1 @@
+export const userImage=<img src='https://cdn.picpng.com/man/pic-man-33229.png' alt='User Image' />

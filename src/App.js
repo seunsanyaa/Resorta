@@ -3,7 +3,7 @@ import {LandingPage} from "./components";
 import {SearchMenu} from "./components/LandingPage";
 import {ResortsPage} from "./components";
 import {AboutUs} from "./components";
-import {Gallery} from "./components";
+import {Gallery,ClientReview,Footer} from "./components";
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 
 const App = () => {
@@ -25,6 +25,10 @@ const App = () => {
         <AboutUs/>
 
         <Gallery/>
+
+        <ClientReview/>
+
+        <Footer/>
 
     </div>
 
