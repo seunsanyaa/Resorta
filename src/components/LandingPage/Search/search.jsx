@@ -1,11 +1,30 @@
 
 import './search.scss'
+import {useRef} from "react";
 import {dot, usericon} from "./icon";
+import React, { useEffect } from 'react';
+import {gsap, TimelineMax} from "gsap";
 
 
 const SearchMenu = () =>{
+
+    const el = useRef();
+    const q = gsap.utils.selector(el);
+    // eslint-disable-next-line no-undef
+    const tl = new TimelineMax();
+
+
+    // eslint-disable-next-line no-undef
+    useEffect(() => {
+
+        // Target ALL descendants with the class of .box
+        tl.from(q(".searchMenu"), { y: 20,autoAlpha: 0 ,duration:0.5},1.2);
+
+    });
+
     return(
-      <div className='searchMenu'>
+        <div ref={el}>
+      <div className='searchMenu' >
           <form>
           <label className='locationLabel'>
               <input id='input' type="text" className='location' placeholder="Felhidoo, Maldives"/>
@@ -36,6 +55,7 @@ const SearchMenu = () =>{
           </form>
 
       </div>
+        </div>
 
     )
 
