@@ -48,7 +48,7 @@ const Footer= () =>{
                  <h4>Transparency</h4>
                  <p>Terms & Conditions</p>
                  <p>Privacy Policy</p>
-                 <p>1Cookie Policy</p>
+                 <p>Cookie Policy</p>
              </div>
          </div>
 

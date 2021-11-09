@@ -5,7 +5,7 @@ import {ResortsPage} from "./components";
 import {AboutUs} from "./components";
 import {Gallery,ClientReview,Footer} from "./components";
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
-
+import { gsap } from "gsap";
 const App = () => {
   return (
       <BrowserRouter>
