@@ -1,8 +1,36 @@
 import './aboutus.scss'
 import {worldwideConnect,secureTravel,saveOnTravel} from "./icon";
-
+import {useEffect, useRef} from "react";
+import {gsap, TimelineMax} from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 const AboutUs= () =>{
+
+    const el = useRef();
+    const q = gsap.utils.selector(el);
+
+    // const tl = new TimelineMax();
+
+
+    // eslint-disable-next-line no-undef
+    useEffect(() => {
+
+        // Target ALL descendants with the class of .box
+        gsap.from(q(".aboutUs"),
+            {
+                y: 50,
+                autoAlpha: 0 ,
+                duration:0.6 ,
+                scrollTrigger:".aboutUs"
+            });
+
+    });
+
+
+
+
     return(
+        <div ref={el}>
         <div className='aboutUs'>
             <div className='aboutUsHeader'>
 
@@ -96,7 +124,7 @@ const AboutUs= () =>{
             </div>
 
         </div>
-
+        </div>
     )
 
 

@@ -18,7 +18,11 @@ const SearchMenu = () =>{
     useEffect(() => {
 
         // Target ALL descendants with the class of .box
-        tl.from(q(".searchMenu"), { y: 20,autoAlpha: 0 ,duration:0.5},1.2);
+        tl.from(q(".searchMenu"), {
+            y: 20,
+            autoAlpha: 0 ,
+            duration:0.5},
+            1.2);
 
     });
 
