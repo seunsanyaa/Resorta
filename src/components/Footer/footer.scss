@@ -1,3 +1,32 @@
+
+@media (min-width: 1440px) {
+  .topFooter {
+    //background: black;
+    padding-top: 4em;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+
+    padding-bottom: 2.5em;
+    max-width: 1440px;
+
+  }
+}@media (min-width: 1550px) {
+  .topFooter {
+    //background: black;
+    padding-top: 4em;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+
+    padding-bottom: 2.5em;
+margin: auto;
+    max-width: 1440px;
+
+  }
+}
+
+
+
+
 .footer{
   background: black;
   color: white;
@@ -5,15 +34,7 @@
   padding-right: 6em;
 }
 
-.topFooter {
-padding-top: 4em;
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
 
-  padding-bottom: 2.5em;
-
-
-}
 
 
 .logoSection svg{
@@ -36,23 +57,18 @@ padding-top: 4em;
 .column p{
   padding-top: 1.3em;
 }
+.logoSection h5{
+  padding-top:2em;
 
-.bottomFooter{
-  background: url("https://res.cloudinary.com/seunsanyaa/image/upload/v1635785957/MacBook_Pro_-_1_10_u8rkg3.png");
-
-  display: flex;
-  justify-content: space-between;
- margin-top: 3.6em;
 
 }
-
-.bottomFooter h4{
-  font-family: "Gilroy Regular";
-  font-size: 0.8em;
-  display: inline
-}
-
-.socials svg{
+.socials  :not(:first-child){
   padding-left: 2em;
-  width: 1em;
+  width: 0.9em;
+}
+
+.socials{
+
+  padding-top: 2em;
+  text-align: left;
 }

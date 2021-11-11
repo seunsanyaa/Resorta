@@ -11,129 +11,167 @@
   margin: 0;
   padding: 0;
 }
+@media (min-width: 1440px) {
 
-.landingPage{
-  background: url("https://res.cloudinary.com/seunsanyaa/image/upload/v1635785957/MacBook_Pro_-_1_10_u8rkg3.png");
-  color: #FFFFFF;
-  //min-height: 100vh;
-  //border-radius: 1em;
-  padding-left: 6em;
-  padding-right: 6em;
-  background-size: 80%;
-  opacity:98%;
-  padding-bottom: 8em;
-z-index: 1;
+  .bigParagraph {
+    font-size: 3em;
+    //max-width: 14em;
+    font-family: "Gilroy Semi Bold";
+    padding-right: 0;
+  }
+  .smallParagraph {
+    font-size: 1.2em;
+    font-family: "Gilroy Regular";
 
+    padding-right: 12em;
+    padding-top: 3em;
+  }
 }
 
+@media (min-width: 1510px)  {
+  .landingPageGrid {
 
-.landingPageGrid {
-  //display: flex;
+    max-width: 1440px;
 
-  display: grid;
-  //flex-direction: row;
+    margin: auto;
 
-  grid-template-columns: 2.5fr 2fr;
-  //align-items: center;
+  }
 
-  margin-top:12em;
-  padding: 0;
+  .bigParagraph{
 
-}
+    font-size: 3em;
+    font-family: "Gilroy Semi Bold";
+    padding-right: 2em;
 
-.landingPageGrid .box{
-  //flex: 1;
+  }
 
-//margin: unset;
-  padding: unset;
 
-}
-.leftSide{
-  text-align: left;
-  width: 100%;
-  display: block;
-  //margin-left: 3em;
+  .smallParagraph {
+    font-size: 1.2em;
+    font-family: "Gilroy Regular";
 
-}
-.leftSide>* ,button.exploreNow{
-  display:inline-block;
-  color: white;
+    padding-right:16em;
+    padding-top: 3em;
+  }
+
+
 
 
 
 }
 
-.bigParagraph{
-  font-size: 3em;
-  //max-width: 14em;
-  font-family: "Gilroy Semi Bold";
-  padding-right:0;
-}
-.smallParagraph{
-  font-size: 1.2em;
-  font-family: "Gilroy Regular";
+  .landingPage{
+    background: url("https://res.cloudinary.com/seunsanyaa/image/upload/v1635785957/MacBook_Pro_-_1_10_u8rkg3.png");
+    color: #FFFFFF;
+    //min-height: 100vh;
+    //border-radius: 1em;
+    padding-left: 6em;
+    padding-right: 6em;
+    background-size: 80%;
+    opacity:98%;
+    padding-bottom: 8em;
+    z-index: 1;
 
-padding-right: 12em;
-  padding-top: 3em;
-}
-//
-.exploreNow{
-  //margin-top: -0.65em;
-  //float: right;
-  background: #FF9C0F;
-  color: #FFFFFF;
-  height: 3em;
-  width: 10em;
-  border-radius: 0.7em;
-  font-size: 1em;
-  cursor: pointer;
-
-  margin-top: 4em;
-}
+  }
 
 
+  .landingPageGrid {
+    //display: flex;
 
-button{
-  background: unset;
-  border: unset;
-}
+    display: grid;
+    //flex-direction: row;
+
+    grid-template-columns: 2.5fr 2fr;
+    //align-items: center;
+
+    margin-top:12em;
+    padding: 0;
 
 
-.rightSide{
+  }
 
-  //width: 100%;
-position: relative;
-margin-top: -7em;
-//padding-top: unset;
-  //padding-top: -6em;
-  width:100%;
-  height:34em;
+  .landingPageGrid .box{
+    //flex: 1;
 
- //margin-top: 10em;
-}
-.rightSide img{
-border-radius: 1em;
-  //width: auto;
-  //padding-left: 8em;
-  opacity: 80%;
-  object-fit: cover;
-  //min-height: 100%;
-  height: 100%;
-  max-width: 100%;
+    //margin: unset;
+    padding: unset;
 
-}
+  }
+  .leftSide{
+    text-align: left;
+    width: 100%;
+    display: block;
+    //margin-left: 3em;
 
-.centered{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+  }
+  .leftSide>* ,button.exploreNow{
+    display:inline-block;
+    color: white;
 
-.playButton{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+
+
+  }
+
+
+  //
+  .exploreNow{
+    //margin-top: -0.65em;
+    //float: right;
+    background: #FF9C0F;
+    color: #FFFFFF;
+    height: 3em;
+    width: 10em;
+    border-radius: 0.7em;
+    font-size: 1em;
+    cursor: pointer;
+
+    margin-top: 4em;
+  }
+
+
+
+  button{
+    background: unset;
+    border: unset;
+  }
+
+
+  .rightSide{
+
+    //width: 100%;
+    position: relative;
+    margin-top: -7em;
+    //padding-top: unset;
+    //padding-top: -6em;
+    width:100%;
+    height:34em;
+
+    //margin-top: 10em;
+  }
+  .rightSide img{
+    border-radius: 1em;
+    //width: auto;
+    //padding-left: 8em;
+    opacity: 80%;
+    object-fit: cover;
+    //min-height: 100%;
+    height: 100%;
+    max-width: 100%;
+
+  }
+
+  .centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .playButton{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
 

@@ -1,4 +1,48 @@
 
+
+@media (min-width: 1440px) {
+  .searchMenu{
+    position: relative;
+    background: white;
+    vertical-align: center;
+    height: 6em;
+    margin-right: 3em;
+    margin-left: 3em;
+    z-index: 1;
+    border-radius: 1em;
+
+    margin-top:-3em;
+    max-width: 1440px;
+  }
+
+
+}
+
+@media (min-width: 1510px) {
+
+  .searchMenu{
+    //text-align: center;
+margin:  auto;
+    max-width: 1440px;
+
+
+    position: relative;
+    background: white;
+    vertical-align: center;
+    height: 6em;
+
+    z-index: 1;
+    border-radius: 1em;
+
+    //margin-top:-3em;
+
+
+
+  }
+
+}
+
+
 button{
   background: unset;
   border: unset;
@@ -9,16 +53,10 @@ button{
 }
 
 .searchMenu{
-  position: relative;
-  background: white;
-vertical-align: center;
-  height: 6em;
-  margin-right: 3em;
-  margin-left: 3em;
-  z-index: 1;
-  border-radius: 1em;
+
 
   margin-top:-3em;
+
 }
 
 input{

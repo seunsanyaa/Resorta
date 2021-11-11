@@ -1,9 +1,64 @@
-.aboutUs{
-  margin-left: 6em;
-  margin-right: 6em;
- padding-top: 10em;
-  padding-bottom: 6em;
+
+
+@media (min-width: 1440px) {
+  .aboutUs{
+    margin-left: 6em;
+    margin-right: 6em;
+    padding-top: 10em;
+    padding-bottom: 6em;
+  }
+
+
+  .aboutUsHeader h4{
+    text-align: center;
+    padding-top: 1.5em;
+    padding-left: 15em;
+    font-size: 1.1em;
+    padding-right: 15em;
+    color: darkslategray;
+  }
+
+  .worldwideConnectInfo h4{
+    font-family: "Gilroy Regular";
+    font-size: 1em;
+    color: darkslategray;
+    padding-top: 0.3em;
+
+
+  }
 }
+
+
+
+
+@media (min-width: 1550px) {
+  .aboutUs{
+    margin: auto;
+    max-width: 1440px;
+  }
+
+  .aboutUsHeader h4{
+    text-align: center;
+    padding-top: 1.5em;
+    padding-left: 17em;
+    font-size: 1.1em;
+    padding-right: 17em;
+    color: darkslategray;
+  }
+
+
+  .worldwideConnectInfo h4{
+    font-family: "Gilroy Regular";
+    font-size: 1em;
+    color: darkslategray;
+    padding-top: 0.3em;
+margin-right: 4em;
+
+  }
+
+}
+
+
 
 .aboutUsHeader{
 
@@ -16,14 +71,7 @@
   font-weight: bolder;
 }
 
-.aboutUsHeader h4{
-  text-align: center;
-  padding-top: 1.5em;
-padding-left: 15em;
-  font-size: 1.1em;
-  padding-right: 15em;
-  color: darkslategray;
-}
+
 
 
 .aboutUsinfo{
@@ -59,14 +107,6 @@ margin-top: 5em;
   font-size: 1.5em;
 }
 
-.worldwideConnectInfo h4{
-  font-family: "Gilroy Regular";
-  font-size: 1em;
-  color: darkslategray;
-  padding-top: 0.3em;
-
-
-}
 .worldwideConnectIcon span{
 
 

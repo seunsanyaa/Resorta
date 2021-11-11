@@ -55,8 +55,8 @@ const Gallery= () =>{
 
 
     return(
-        <div ref={el}>
-      <div className='gallery'>
+        <div ref={el} className='gallery'>
+      <div className='galleryContainer'>
 
 
 

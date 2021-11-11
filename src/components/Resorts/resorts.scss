@@ -1,9 +1,50 @@
-.resortsPage{
-  //max-width: 1440px;
-background: whitesmoke;
-  display: grid;
-  grid-template-columns: 3fr 2fr ;
-  padding-left: 6em;
- padding-right: 6em;
-padding-top: 5.5em;
+
+
+
+@media (min-width: 1440px) {
+
+
+  .resortsPage{
+    //max-width: 1440px;
+    background: whitesmoke;
+    display: grid;
+    grid-template-columns: 3fr 2fr ;
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-top: 5.5em;
+
+  }
+
+
 }
+
+
+@media (min-width: 1550px) {
+
+
+  .resortsPage{
+    max-width: 1440px;
+    background: whitesmoke;
+    display: grid;
+    grid-template-columns: 3fr 2fr ;
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-top: 5.5em;
+margin: auto;
+  }
+
+
+}
+
+//
+//.resortsPage{
+//  //max-width: 1440px;
+//background: whitesmoke;
+//  display: grid;
+//  grid-template-columns: 3fr 2fr ;
+//  padding-left: 6em;
+// padding-right: 6em;
+//padding-top: 5.5em;
+//
+//}
+//

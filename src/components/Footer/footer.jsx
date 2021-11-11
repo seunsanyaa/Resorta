@@ -11,6 +11,14 @@ const Footer= () =>{
 
                  {logo}
 
+                 <h5>© Copyright 2021 Resorta</h5>
+
+                 <div className='socials'>
+                     {twitter}
+                     {facebook}
+                     {instagram}
+                 </div>
+
 
 
              </div>
@@ -56,16 +64,16 @@ const Footer= () =>{
 
 
 
-          <div className='bottomFooter'>
-              <h4>© Copyright 2021 Resorta</h4>
+          {/*<div className='bottomFooter'>*/}
+          {/*    <h4>© Copyright 2021 Resorta</h4>*/}
 
 
-              <div className='socials'>
-                  {twitter}
-                  {facebook}
-                  {instagram}
-              </div>
-          </div>
+          {/*    <div className='socials'>*/}
+          {/*        {twitter}*/}
+          {/*        {facebook}*/}
+          {/*        {instagram}*/}
+          {/*    </div>*/}
+          {/*</div>*/}
 
 
 

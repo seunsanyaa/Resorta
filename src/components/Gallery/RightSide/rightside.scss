@@ -1,3 +1,46 @@
+
+@media (min-width: 1440px) {
+
+  .rightSide h2{
+    //text-align: center;
+    font-size: 2.8em;
+    font-family: "Gilroy Semi Bold";
+  }
+
+
+  .rightSide h4{
+    //text-align: center;
+    padding-top: 2em;
+    font-size: 1.3em;
+    font-family: "Gilroy Regular";
+    color: grey;
+  }
+
+}
+
+@media (min-width: 1550px) {
+
+  .rightSide h2{
+    //text-align: center;
+    font-size: 3em;
+    font-family: "Gilroy Semi Bold";
+  }
+
+
+
+  .rightSide h4{
+    //text-align: center;
+    padding-top: 2em;
+    font-size: 1.5em;
+    font-family: "Gilroy Regular";
+    color: grey;
+  }
+
+}
+
+
+
+
 .rightSide{
 text-align:left;
   padding-left: 1.5em;
@@ -6,21 +49,6 @@ text-align:left;
 
 
 
-
-.rightSide h2{
-//text-align: center;
-  font-size: 2.8em;
-  font-family: "Gilroy Semi Bold";
-}
-
-
-.rightSide h4{
-  //text-align: center;
-  padding-top: 2em;
-  font-size: 1.3em;
-  font-family: "Gilroy Regular";
-  color: grey;
-}
 
 
 .seePictures{

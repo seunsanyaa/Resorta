@@ -62,8 +62,8 @@ const ClientReview= () =>{
     // });
     return(
 
-
-     <div className='clientReview'  ref={el}>
+<div className='clientReview'>
+     <div className='clientReviewContainer'  ref={el}>
 <h1 className="clientReviewHead">Phasellus gravida ex at lorem mattis</h1>
 
 
@@ -163,7 +163,7 @@ const ClientReview= () =>{
 
 
      </div>
-
+</div>
     )
 
 
