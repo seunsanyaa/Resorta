@@ -7,6 +7,27 @@
   src: url("https://res.cloudinary.com/seunsanyaa/raw/upload/v1622455595/Gilroy-Regular_qlww39.ttf");
 }
 
+.screenSizeNotAvailable{
+
+ display: none;
+}
+
+@media (max-width: 1024px) {
+  .app{
+
+    visibility: hidden;
+  }
+
+
+
+  .screenSizeNotAvailable{
+
+ display: flex;
+    color: black;
+  }
+}
+
+
 * {
   margin: 0;
   padding: 0;

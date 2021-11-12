@@ -19,7 +19,7 @@ const LandingPage = () =>{
 
         // Target ALL descendants with the class of .box
         tl.from(q(".leftSide"), { y: 22,autoAlpha: 0 ,duration:0.5,delay:1});
-        tl.fromTo(q(".rightSide"), {scale:0,autoAlpha:0},{scale:1,autoAlpha:1,duration:0.5,delay:0.09});
+        tl.fromTo(q(".rightSide"), {scale:0,autoAlpha:0,delay:1},{scale:1,autoAlpha:1,duration:0.5});
 
 
 
@@ -31,7 +31,9 @@ const LandingPage = () =>{
             <NavBar/>
 
                 <div className='container landingPageGrid' ref={el}>
-
+                    <h1 className='screenSizeNotAvailable'>
+                        View not Available.
+                    </h1>
                     <div className='leftSide box' >
 
                         <p className='bigParagraph'>
