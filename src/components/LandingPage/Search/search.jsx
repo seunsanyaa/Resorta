@@ -22,7 +22,7 @@ const SearchMenu = () =>{
             y: 20,
             autoAlpha: 0 ,
             duration:0.5},
-            1.2);
+            1.5);
 
     });
 

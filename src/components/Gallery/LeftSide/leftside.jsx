@@ -39,7 +39,7 @@ const Leftside= () =>{
         gsap.from(q(".topRightImageImg"), 0.8, {
             scrollTrigger:'.left',
             opacity: 0 ,
-delay:0.6,
+delay:0.745,
             duration:0,
         });
 
@@ -50,13 +50,13 @@ delay:0.6,
             scaleY: 0,
             transformOrigin: "bottom",
             duration:0.45,
-            delay:0.3,
+            delay:0.445,
         }, "reveal");
 
         gsap.from(q(".bottomRightImageImg"), 0.8, {
             scrollTrigger:'.left',
             opacity: 0 ,
-            delay:1.7,
+            delay:2,
             duration:0,
         });
 
@@ -67,36 +67,13 @@ delay:0.6,
             scaleY: 0,
             transformOrigin: "top",
             duration:0.45,
-            delay:1.4,
+            delay:1.7,
         }, "reveal");
 
-//
-//         gsap.from(q(".leftImageImg"),
-//             {
-//                 opacity:0,
-//
-// autoAlpha:0,
-//                 duration:1 ,
-//                 scrollTrigger: ".left",
-//                 delay:0
-//
-//             });
-//
-//
-//
-//       gsap.to(q(".leftImageImg"),
-//
-//           { scaleX: 0,
-// delay:0.7,
-//                 transformOrigin: "right",
-//                 duration:1},
-//             "reveal");
-//
-//
-//
 
 
-    });
+
+    },[]);
 
 
 

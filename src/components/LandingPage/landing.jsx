@@ -2,11 +2,10 @@ import {NavBar} from "./index";
 import './landing.scss'
 import {BlurryImage, PlayButton, RightImage} from "./icon";
 import {SearchMenu} from "./index";
-import {useEffect, useRef} from "react";
+import {useEffect, useRef, useState} from "react";
 import {gsap, TimelineMax} from "gsap";
 
 const LandingPage = () =>{
-
 
 
     const el = useRef();
@@ -19,13 +18,12 @@ const LandingPage = () =>{
     useEffect(() => {
 
         // Target ALL descendants with the class of .box
-        tl.from(q(".leftSide"), { y: 22,autoAlpha: 0 ,duration:0.5},0.8);
-        tl.fromTo(q(".rightSide"), {scale:0,autoAlpha:0},{scale:1,autoAlpha:1,duration:0.6},0.9);
+        tl.from(q(".leftSide"), { y: 22,autoAlpha: 0 ,duration:0.5,delay:1});
+        tl.fromTo(q(".rightSide"), {scale:0,autoAlpha:0},{scale:1,autoAlpha:1,duration:0.5,delay:0.09});
 
 
 
     });
-
 
 
     return(
