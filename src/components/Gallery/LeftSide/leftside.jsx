@@ -22,7 +22,7 @@ const Leftside= () =>{
 
         gsap.from(q(".leftImageImg"), 0.8, {
             scrollTrigger:'.left',
-            opacity: 0 ,
+            opacity: 0.1 ,
 
             duration:0,
         });
@@ -38,7 +38,7 @@ const Leftside= () =>{
 
         gsap.from(q(".topRightImageImg"), 0.8, {
             scrollTrigger:'.left',
-            opacity: 0 ,
+            opacity: 0.1 ,
 delay:0.745,
             duration:0,
         });
@@ -55,7 +55,7 @@ delay:0.745,
 
         gsap.from(q(".bottomRightImageImg"), 0.8, {
             scrollTrigger:'.left',
-            opacity: 0 ,
+            opacity: 0.1 ,
             delay:2,
             duration:0,
         });

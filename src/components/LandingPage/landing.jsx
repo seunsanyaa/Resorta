@@ -17,10 +17,20 @@ const LandingPage = () =>{
     // eslint-disable-next-line no-undef
     useEffect(() => {
 
-        // Target ALL descendants with the class of .box
-        tl.from(q(".leftSide"), { y: 22,autoAlpha: 0 ,duration:0.5,delay:1});
-        tl.fromTo(q(".rightSide"), {scale:0,autoAlpha:0,delay:1},{scale:1,autoAlpha:1,duration:0.5});
+        function init() {
+            //all my GSAP here, for all pages
 
+            // Target ALL descendants with the class of .box
+            tl.from(q(".leftSide"), { y: 22,autoAlpha: 0 ,duration:0.5,delay:2.2});
+            tl.fromTo(q(".rightSide"), {scale:0,autoAlpha:0.05},{scale:1,autoAlpha:1,duration:0.5,delay:0.2});
+
+
+        }
+
+
+        window.addEventListener("load", function(event) {
+            init();
+        });
 
 
     });

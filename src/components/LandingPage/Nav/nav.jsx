@@ -18,7 +18,7 @@ const NavBar = () =>{
     useEffect(() => {
 
         // Target ALL descendants with the class of .box
-        tl.from(q("nav"), { y: 20,autoAlpha: 0 ,duration:0.58},0.3);
+        tl.from(q("nav"), { y: 20,autoAlpha: 0 ,duration:0.58},2);
 
     });
 
