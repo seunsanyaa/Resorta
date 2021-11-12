@@ -1,6 +1,103 @@
 
 
+
+@media (min-width: 1024px) and (max-width:1390px) {
+
+  .aboutUsinfo{
+    margin-top: 4em;
+    text-align: left;
+
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+  }
+  .aboutUsHeader h1{
+    font-family: "Gilroy Semi Bold";
+    font-size: 2em;
+    font-weight: bolder;
+  }
+
+  .worldwideConnectInfo{
+    display: inline-block;
+    padding-left: 2em;
+
+    //padding-right: 55em;
+
+  }
+
+  .aboutUs{
+    margin-left: 6em;
+    margin-right: 6em;
+    padding-top: 10em;
+    padding-bottom: 6em;
+  }
+  .aboutUsHeader h1{
+    font-family: "Gilroy Semi Bold";
+    font-size: 2em;
+    font-weight: bolder;
+  }
+
+
+  .aboutUsHeader h4{
+    text-align: center;
+    padding-top: 1.5em;
+    padding-left: 15em;
+    font-size: 0.7em;
+    padding-right: 10em;
+    color: darkslategray;
+  }
+
+  .worldwideConnectInfo h4{
+    font-family: "Gilroy Regular";
+    font-size: 0.8em;
+    color: darkslategray;
+    padding-top: 0.3em;
+
+
+
+
+  }
+
+  .worldwideConnectIcon img{
+    text-align: center;
+    border-radius: 10px;
+    //background: grey;
+    width: 2.3em;
+  }
+
+
+  .worldwideConnectInfo h2{
+    font-family: "Gilroy Semi Bold";
+    font-size: 1.2em;
+  }
+
+
+
+  .worldwideConnectInfo{
+    display: inline-block;
+    padding-left: 1.5em;
+
+    //padding-right: 55em;
+
+  }
+
+
+}
+
+
+
+
+
 @media (min-width: 1440px) {
+  .aboutUsHeader h1{
+    font-family: "Gilroy Semi Bold";
+    font-size: 2.5em;
+    font-weight: bolder;
+  }
+
+  .worldwideConnectInfo h2{
+    font-family: "Gilroy Semi Bold";
+    font-size: 1.5em;
+  }
   .aboutUs{
     margin-left: 6em;
     margin-right: 6em;
@@ -26,12 +123,47 @@
 
 
   }
+  .worldwideConnectIcon img{
+    text-align: center;
+    border-radius: 10px;
+    //background: grey;
+    width: 5em;
+  }
+
+
+
+
+  .worldwideConnectInfo{
+    display: inline-block;
+    padding-left: 1.3em;
+
+    //padding-right: 55em;
+
+  }
+
+
+
+
+  .aboutUsinfo{
+    margin-top: 5em;
+    text-align: left;
+
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+  }
+
 }
 
 
 
 
 @media (min-width: 1550px) {
+  .worldwideConnectIcon img{
+    text-align: center;
+    border-radius: 10px;
+    //background: grey;
+    width: 5em;
+  }
   .aboutUs{
     margin: auto;
     max-width: 1440px;
@@ -56,6 +188,36 @@ margin-right: 4em;
 
   }
 
+
+  .worldwideConnectInfo h2{
+    font-family: "Gilroy Semi Bold";
+    font-size: 1.5em;
+  }
+
+
+
+  .worldwideConnectInfo{
+    display: inline-block;
+    padding-left: 1.3em;
+
+    //padding-right: 55em;
+
+  }
+  .aboutUsHeader h1{
+    font-family: "Gilroy Semi Bold";
+    font-size: 2.5em;
+    font-weight: bolder;
+  }
+
+
+
+  .aboutUsinfo{
+    margin-top: 5em;
+    text-align: left;
+
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+  }
 }
 
 
@@ -65,22 +227,9 @@ margin-right: 4em;
   text-align: center;
 }
 
-.aboutUsHeader h1{
-  font-family: "Gilroy Semi Bold";
-  font-size: 2.5em;
-  font-weight: bolder;
-}
 
 
 
-
-.aboutUsinfo{
-margin-top: 5em;
-  text-align: left;
-
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr;
-}
 
 
 .worldwideConnect :not(:first-child){
@@ -94,26 +243,8 @@ margin-top: 5em;
 }
 
 
-.worldwideConnectInfo{
-  display: inline-block;
-  padding-left: 1.3em;
-
-  //padding-right: 55em;
-
-}
-
-.worldwideConnectInfo h2{
-  font-family: "Gilroy Semi Bold";
-  font-size: 1.5em;
-}
 
 .worldwideConnectIcon span{
 
 
-}
-.worldwideConnectIcon img{
-  text-align: center;
-  border-radius: 10px;
-  //background: grey;
-  width: 5em;
 }

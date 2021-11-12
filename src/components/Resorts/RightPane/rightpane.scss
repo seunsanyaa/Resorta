@@ -1,8 +1,24 @@
 .rightPane{
-  margin-left: 6.5em;
+  margin-left: 3em;
 }
 
 .filterHeading{
-  font-size: 1.5em;
+  font-size:2em;
   font-family: "Gilroy Semi Bold";
+}
+
+
+
+
+
+@media (min-width: 1024px) and (max-width: 1390px) {
+  .filterHeading{
+    font-size: 1.5em;
+    font-family: "Gilroy Semi Bold";
+  }
+
+  .rightPane{
+    margin-left: 2em;
+  }
+
 }

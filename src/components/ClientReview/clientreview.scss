@@ -1,4 +1,66 @@
 
+@media (min-width: 1024px) and (max-width: 1390px){
+
+  .clientReviewContainer{
+
+    max-width: 1024px;
+    margin: auto;
+  }
+
+  .reviewCardsDetails{
+    width: 20em;
+    background: white;
+    text-align: left;
+    padding: 1.5em 0.9em;
+    margin-right: 1em;
+    margin-left: 1em;
+
+    //margin-right: 10em;
+  }
+
+  .clientReview h1{
+    text-align: center;
+    font-family: "Gilroy Semi Bold";
+    font-size: 2em;
+    //font-weight: bolder;
+  }
+
+
+
+
+  .paragraph p{
+
+    font-size: 0.8em;
+  }
+
+  .imageAndName{
+    display: flex;
+    padding-top: 3em;
+    //justify-content: center;
+    align-items: center;
+    //display: flex;
+  }
+
+  .imageAndName h4{
+
+    font-family: "Gilroy Semi Bold";
+    font-size:0.8em;
+    //padding-top: 2em;
+    //  vertical-align:middle;
+    //justify-content: center;
+
+
+  }
+
+  .imageAndName img{
+
+    width: 2em;
+    border-radius: 5em;
+  }
+
+
+
+}
 @media (min-width: 1440px) {
 
   .clientReviewContainer{
@@ -8,6 +70,45 @@
   }
 
 
+
+  .clientReview h1{
+    text-align: center;
+    font-family: "Gilroy Semi Bold";
+    font-size: 2.5em;
+    //font-weight: bolder;
+  }
+
+
+
+  .paragraph p{
+
+    font-size: 1.1em;
+  }
+
+  .imageAndName{
+    display: flex;
+    padding-top: 3em;
+    //justify-content: center;
+    align-items: center;
+    //display: flex;
+  }
+
+  .imageAndName h4{
+
+    font-family: "Gilroy Semi Bold";
+    font-size:1.02em;
+    //padding-top: 2em;
+    //  vertical-align:middle;
+    //justify-content: center;
+
+
+  }
+
+  .imageAndName img{
+
+    width: 4em;
+    border-radius: 5em;
+  }
 
 
 }
@@ -21,6 +122,45 @@
   }
 
 
+
+  .clientReview h1{
+    text-align: center;
+    font-family: "Gilroy Semi Bold";
+    font-size: 2.5em;
+    //font-weight: bolder;
+  }
+
+
+
+  .paragraph p{
+
+    font-size: 1.1em;
+  }
+
+  .imageAndName{
+    display: flex;
+    padding-top: 3em;
+    //justify-content: center;
+    align-items: center;
+    //display: flex;
+  }
+
+  .imageAndName h4{
+
+    font-family: "Gilroy Semi Bold";
+    font-size:1.02em;
+    //padding-top: 2em;
+    //  vertical-align:middle;
+    //justify-content: center;
+
+
+  }
+
+  .imageAndName img{
+
+    width: 4em;
+    border-radius: 5em;
+  }
 
 
 }
@@ -38,13 +178,6 @@ background: whitesmoke;
 }
 
 
-
-.clientReview h1{
-  text-align: center;
-  font-family: "Gilroy Semi Bold";
-  font-size: 2.5em;
-  //font-weight: bolder;
-}
 
 
 .reviewCards{
@@ -70,33 +203,3 @@ text-align: left;
   //margin-right: 10em;
 }
 
-
-.paragraph p{
-
-  font-size: 1.1em;
-}
-
-.imageAndName{
-  display: flex;
-padding-top: 3em;
-  //justify-content: center;
-  align-items: center;
-  //display: flex;
-}
-
-.imageAndName h4{
-
-  font-family: "Gilroy Semi Bold";
-  font-size:1.02em;
-//padding-top: 2em;
-//  vertical-align:middle;
-  //justify-content: center;
-
-
-}
-
-.imageAndName img{
-
-width: 4em;
-  border-radius: 5em;
-}

@@ -1,3 +1,176 @@
+@media (min-width: 1024px) and (max-width: 1390px) {
+  .filterElements{
+    //margin-left: 1.55em;
+    //  margin-right: 0em;
+    padding-left: 1em;
+    padding-top: 1.5em;
+    //padding-left:2em;
+    text-align: left;
+    padding-bottom: 2em;
+    padding-right: 1em;
+
+  }
+
+
+
+ .budgetPerNightHeader {
+
+
+font-size: 14.4px;
+
+  }
+  .frequentlyUsedHeader {
+
+
+    font-size: 14.4px;
+
+  }
+
+  .budgetPerNight svg{
+
+    margin-top: 0.8em;
+    height: 1em;
+
+
+
+  }
+
+
+  .filterRatings svg{
+
+    padding-top: 1.5em;
+    height: 1em;
+
+
+  }
+
+  .budgetPrice h4{
+
+    font-family: "Gilroy Semi Bold";
+
+    font-size: 1em;
+  }
+
+  .frequentlyUsedButtons div button{
+    text-align: center;
+    background: none;
+    height:2.7em;
+    width: 9em;
+    color: black;
+    font-size: 0.8em;
+    border-radius: 10px;
+    margin-bottom: 0.9em;
+    border: 0.04px solid black;
+
+    &:focus{
+      color: white;
+      background: #031733;
+    }
+
+
+  }
+
+  .frequentlyUsedButtons .RightSide{
+
+
+    margin-left: -1em;
+  }
+
+
+  .fiterRatingsHeader{
+
+    font-size: 0.9em;
+  }
+
+  //.numbers{
+  //
+  //  font-family: "Gilroy Semi Bold";
+  //
+  //  font-size: 1em;
+  //}
+
+
+
+  .filterNumber h4{
+
+    font-size: 1em;
+    //padding-left: 2.5em;
+  }
+
+
+
+
+  .reviewScore svg{
+
+    padding-top: 1.5em;
+
+    height: 1em;
+
+
+  }
+
+  .reviewScoresNumber{
+    padding-top: 0.7em;
+    display: inline-flex;
+  }
+
+  .reviewScoresNumber h4{
+
+    font-size: 1em;
+  }
+
+  .reviewScoresNumber h4{
+
+    font-size: 1em;
+  }
+
+  .reviewScoresNumber h4:last-child{
+
+    text-align: center;
+    border-radius: 5px;
+
+
+    margin-left: 17em;
+  }
+
+
+  .priceRight{
+
+    margin-left: 16.5em;
+  }
+
+  .filterNumber h4:not(:first-child):not(:last-child){
+
+    padding-left: 4.5em;
+  }
+
+  .filterNumber h4:last-child{
+
+    padding-left: 3em;
+  }
+
+
+  .reviewScoreInline h3:last-child{
+    width: 1.7em;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    background: black;
+    margin-left: 12.5em;
+    font-size: 1em;
+  }
+
+
+
+  .reviewScoreHeader{
+    font-size: 1em;
+  }
+
+  .reviewScoresNumber h4:last-child{
+   margin-left: 20em;
+  }
+
+}
 @media (min-width: 1440px) {
   .filterElements{
     //margin-left: 1.55em;
@@ -9,7 +182,91 @@
     padding-bottom: 2em;
 
   }
+
+  .budgetPrice h4{
+
+    font-family: "Gilroy Semi Bold";
+
+    font-size: 1.2em;
+
+  }
+
+
+
+  .frequentlyUsedButtons div button{
+    text-align: center;
+    background: none;
+    height: 3.4em;
+    width: 9.5em;
+    color: black;
+    font-size: 1em;
+    border-radius: 14px;
+    margin-bottom: 0.7em;
+    border: 0.04px solid black;
+
+    &:focus{
+      color: white;
+      background: #031733;
+    }
+
+
+  }
+  .filterNumber h4{
+
+    font-size: 1.2em;
+    //padding-left: 2.5em;
+  }
+
+
+  .reviewScoresNumber h4{
+
+    font-size: 1.2em;
+  }
+
+  .reviewScoresNumber h4:last-child{
+
+    text-align: center;
+    border-radius: 5px;
+
+
+    margin-left: 17em;
+  }
+
+  .priceRight{
+
+    margin-left: 13em;
+  }
+
+
+
+
+  .filterNumber h4:not(:first-child):not(:last-child){
+
+    padding-left: 3.5em;
+  }
+
+  .filterNumber h4:last-child{
+
+    padding-left: 2.5em;
+  }
+
+
+  .reviewScoreInline h3:last-child{
+    width: 1.7em;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    background: black;
+    margin-left: 10.8em;
+  }
+
 }
+
+
+
+
+
+
 
 
 @media (min-width: 1550px) {
@@ -23,6 +280,78 @@
     padding-bottom: 2em;
 
   }
+
+  .budgetPrice h4{
+
+    font-family: "Gilroy Semi Bold";
+
+    font-size: 1.2em;
+  }
+
+
+  .frequentlyUsedButtons div button{
+    text-align: center;
+    background: none;
+    height: 3.4em;
+    width: 9.5em;
+    color: black;
+    font-size: 1em;
+    border-radius: 14px;
+    margin-bottom: 0.7em;
+    border: 0.04px solid black;
+
+    &:focus{
+      color: white;
+      background: #031733;
+    }
+
+
+  }
+
+  .filterNumber h4{
+
+    font-size: 1.2em;
+    //padding-left: 2.5em;
+  }
+
+  .reviewScoresNumber h4{
+
+    font-size: 1.2em;
+  }
+
+  .reviewScoresNumber h4:last-child{
+
+    text-align: center;
+    border-radius: 5px;
+
+
+    margin-left: 17em;
+  }
+  .priceRight{
+
+    margin-left: 13em;
+  }
+
+
+  .filterNumber h4:not(:first-child):not(:last-child){
+
+    padding-left: 3.5em;
+  }
+
+  .filterNumber h4:last-child{
+
+    padding-left: 2.5em;
+  }
+
+  .reviewScoreInline h3:last-child{
+    width: 1.7em;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    background: black;
+    margin-left: 10.8em;
+  }
+
 }
 
 
@@ -66,18 +395,19 @@ margin-top: 1.5em;
 display: inline-flex;
   margin-top: 0.7em;
 
+
 }
-.budgetPrice h4{
+//.budgetPrice h4{
+//
+//font-family: "Gilroy Semi Bold";
+//
+//font-size: 1.2em;
+//}
 
-font-family: "Gilroy Semi Bold";
-
-font-size: 1.2em;
-}
-
-.priceRight{
-
-  margin-left: 13em;
-}
+//.priceRight{
+//
+//  margin-left: 13em;
+//}
 
 .frequentlyUsed{
 padding-top: 2.5em;
@@ -96,24 +426,7 @@ margin-top: 1.5em;
 
 }
 //
-.frequentlyUsedButtons div button{
-text-align: center;
- background: none;
-  height: 3.4em;
-  width: 9.5em;
-  color: black;
- font-size: 1em;
-  border-radius: 14px;
-  margin-bottom: 0.7em;
-  border: 0.04px solid black;
 
-  &:focus{
-color: white;
-    background: #031733;
-  }
-
-
-}
 .frequentlyUsedButtons .leftSide{
 
 
@@ -138,21 +451,9 @@ padding-top: 0.7em;
   display: inline-flex;
 }
 
-.filterNumber h4{
 
-  font-size: 1.2em;
-  //padding-left: 2.5em;
-}
 
-.filterNumber h4:not(:first-child):not(:last-child){
 
-  padding-left: 3.5em;
-}
-
-.filterNumber h4:last-child{
-
-  padding-left: 2.5em;
-}
 
 .reviewScore{
   padding-top: 2.5em;
@@ -163,18 +464,12 @@ padding-top: 0.7em;
 }
 
 
-.reviewScoreInline h3:last-child{
-  width: 1.7em;
-  text-align: center;
-  border-radius: 5px;
-  color: white;
-background: black;
-  margin-left: 10.8em;
-}
+
 
 .reviewScore svg{
 
   padding-top: 1.5em;
+
 
 }
 
@@ -183,16 +478,3 @@ background: black;
   display: inline-flex;
 }
 
-.reviewScoresNumber h4{
-
-  font-size: 1.2em;
-}
-
-.reviewScoresNumber h4:last-child{
-
-  text-align: center;
-  border-radius: 5px;
-
-
-  margin-left: 17em;
-}

@@ -1,4 +1,55 @@
 
+@media (min-width: 1024px) and (max-width: 1390px){
+  .topFooter {
+    //background: black;
+    padding-top: 4em;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+
+    padding-bottom: 3em;
+
+
+  }
+
+
+  .logoSection svg{
+
+
+    height: 1.5em;
+  }
+
+
+  .column h4{
+   font-size: 0.8em;
+
+  }
+  .column p{
+    font-size: 0.8em;
+  }
+  .logoSection h5{
+    padding-top:2em;
+
+
+  }
+
+
+  .logoSection h5{
+  font-size: 0.6em;
+
+
+  }
+
+
+  .socials svg{
+    padding-top: -2em;
+  height: 0.8em;
+  }
+
+
+
+}
+
+
 @media (min-width: 1440px) {
   .topFooter {
     //background: black;
@@ -10,7 +61,19 @@
     max-width: 1440px;
 
   }
-}@media (min-width: 1550px) {
+
+
+  .logoSection svg{
+
+
+    height: 2.1em;
+  }
+
+}
+
+
+
+@media (min-width: 1550px) {
   .topFooter {
     //background: black;
     padding-top: 4em;
@@ -22,6 +85,14 @@ margin: auto;
     max-width: 1440px;
 
   }
+
+
+  .logoSection svg{
+
+
+    height: 2.1em;
+  }
+
 }
 
 
@@ -37,11 +108,7 @@ margin: auto;
 
 
 
-.logoSection svg{
 
-
-  height: 2.1em;
-}
 
 
 .column{

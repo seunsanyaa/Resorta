@@ -47,7 +47,7 @@ const Footer= () =>{
         <h4>Contact</h4>
                     <p>123 456 789 0</p>
                     <p>info@resorta.com</p>
-                    <p>1704 Guild street, London</p>
+                    <p>1704 Guild street, UK</p>
                     <p>WI - 552 90 86</p>
              </div>
 

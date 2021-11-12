@@ -22,3 +22,19 @@ margin: 0;
  color: #959595;
  padding-left: 0.25em;
 }
+
+
+@media (min-width: 1024px) and (max-width: 1390px) {
+ .headingName{
+  font-size: 1.5em;
+  font-family: "Gilroy Semi Bold";
+  padding-top: 0.15em;
+ }
+ .results{
+  font-size: 0.8em;
+  padding-top: 0.9em;
+  color: #959595;
+  padding-left: 0.3em;
+ }
+
+}

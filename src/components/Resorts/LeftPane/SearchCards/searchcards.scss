@@ -1,4 +1,148 @@
 
+@media (min-width: 1024px) and (max-width: 1390px) {
+  .information{
+    width: 100%;
+
+    margin-left: -4.5em;
+    margin-top: 1em;
+    //margin-right: 2.5em;
+    margin-bottom: 1.5em;
+  }
+
+
+
+
+
+  .information h3{
+    font-size: 0.9em;
+  }
+  .resortLocation{
+    padding-top: 1em;
+    font-size: 0.8em;
+    color: dimgrey;
+  }
+  .icons svg{
+    padding-top: 0.8em;
+    padding-right: 1em;
+    height: 1em;
+  }
+  .smallInfo >*{
+    display: block;
+  }
+
+  .smallInfo{
+    padding-top: 0em;
+    display:inline-block;
+  }
+  .smallInfoText{
+    font-size: 0.8em;
+    //padding-left: 0.6em;
+    color: dimgrey;
+    padding-top: 1em;
+  }
+  .smallInfoText .text{
+    padding-left: 0.5em;
+  }
+  .bottomSection>*{
+    display: inline;
+
+  }
+
+  .bottomSection{
+//margin-top: -0.5em;
+
+  }
+
+  .price>*{
+    display: inline;
+  }
+  .priceFee{
+
+    font-family: "Gilroy Semi Bold";
+    //font-size: 0.2em;
+  }
+  .perNight{
+    padding-left: 0.7em;
+    font-family: "Gilroy Regular";
+    color: darkgray;
+    font-size: 0.8em;
+  }
+
+  .bookings>*{
+    display: inline;
+  }
+
+  .bookings{
+    padding-left: 0.8em;
+  }
+
+
+  .bookings .book{
+    color: #FF9C0F;
+    font-size: 1em;
+    padding-left: 0.8em;
+  }
+
+  .bottomSection svg{
+    display: inline-flex;
+    padding-top: 1em;
+    padding-left: 1em;
+    height: 1em;
+  }
+
+  .titleAndRatings>*{
+    display: inline;
+  }
+  .ratings button{
+    display: inline-flex;
+
+    margin-left: 5em;
+    background-color: #031733;
+    width: 4em;
+    height: 1.8em;
+    color: white;
+    font-size: 0.92em;
+    //vertical-align: center;
+    justify-content: center; /* center the content horizontally */
+    align-items: center;
+    border-radius: 7px;
+  }
+  .ratings button span svg{
+    padding-left: 0.8em;
+    vertical-align: center;
+    height: 1em;
+  }
+
+
+  .searchCards{
+    border: 0px solid whitesmoke;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 0px 7px lightgrey;
+    border-radius: 1.5em;
+
+    //border-top-left-radius: 2em;
+    margin-top: 2.5em;
+    background: whitesmoke;
+    height: 13em;
+width:34.3em;
+    //max-width: 1024px;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 1440px) {
   .information{
     width: 100%;
@@ -9,7 +153,131 @@
     margin-bottom: 1.5em;
   }
 
+
+
+  .information h3{
+    font-size: 1.15em;
+  }
+  .resortLocation{
+    padding-top: 1em;
+    font-size: 1em;
+    color: dimgrey;
+  }
+  .icons svg{
+    padding-top: 1.5em;
+    padding-right: 1.5em;
+  }
+  .smallInfo >*{
+    display: block;
+  }
+
+  .smallInfo{
+    padding-top: 0em;
+    display:inline-block;
+  }
+  .smallInfoText{
+    font-size: 1em;
+    //padding-left: 0.6em;
+    color: dimgrey;
+    padding-top: 1em;
+  }
+  .smallInfoText .text{
+    padding-left: 0.5em;
+  }
+  .bottomSection>*{
+    display: inline;
+
+  }
+
+  .bottomSection{
+
+
+  }
+
+  .price>*{
+    display: inline;
+  }
+  .priceFee{
+
+    font-family: "Gilroy Semi Bold";
+    //font-size: 0.2em;
+  }
+  .perNight{
+    padding-left: 0.7em;
+    font-family: "Gilroy Regular";
+    color: darkgray;
+    font-size: 1em;
+  }
+
+  .bookings>*{
+    display: inline;
+  }
+
+  .bookings{
+    padding-left: 1em;
+  }
+
+
+  .bookings .book{
+    color: #FF9C0F;
+    font-size: 1.2em;
+    padding-left: 1em;
+  }
+
+  .bottomSection svg{
+    display: inline-flex;
+    padding-top: 1.2em;
+    padding-left: 2em;
+  }
+
+  .titleAndRatings>*{
+    display: inline;
+  }
+  .ratings button{
+    display: inline-flex;
+
+    margin-left: 6.5em;
+    background-color: #031733;
+    width: 4em;
+    height: 2em;
+    color: white;
+    font-size: 1.1em;
+    //vertical-align: center;
+    justify-content: center; /* center the content horizontally */
+    align-items: center;
+    border-radius: 10px;
+  }
+  .ratings button span svg{
+    padding-left: 1em;
+    vertical-align: center;
+  }
+
+
+
+
+  .searchCards{
+    border: 0px solid whitesmoke;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 0px 7px lightgrey;
+    border-radius: 1.5em;
+
+    //border-top-left-radius: 2em;
+    margin-top: 2.5em;
+    background: whitesmoke;
+  }
+
+
+
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -24,7 +292,133 @@
 
   }
 
+
+
+
+  .information h3{
+    font-size: 1.15em;
+  }
+  .resortLocation{
+    padding-top: 1em;
+    font-size: 1em;
+    color: dimgrey;
+  }
+  .icons svg{
+    padding-top: 1.5em;
+    padding-right: 1.5em;
+  }
+  .smallInfo >*{
+    display: block;
+  }
+
+  .smallInfo{
+    padding-top: 0em;
+    display:inline-block;
+  }
+  .smallInfoText{
+    font-size: 1em;
+    //padding-left: 0.6em;
+    color: dimgrey;
+    padding-top: 1em;
+  }
+  .smallInfoText .text{
+    padding-left: 0.5em;
+  }
+  .bottomSection>*{
+    display: inline;
+
+  }
+
+  .bottomSection{
+
+
+  }
+
+  .price>*{
+    display: inline;
+  }
+  .priceFee{
+
+    font-family: "Gilroy Semi Bold";
+    //font-size: 0.2em;
+  }
+  .perNight{
+    padding-left: 0.7em;
+    font-family: "Gilroy Regular";
+    color: darkgray;
+    font-size: 1em;
+  }
+
+  .bookings>*{
+    display: inline;
+  }
+
+  .bookings{
+    padding-left: 1em;
+  }
+
+
+  .bookings .book{
+    color: #FF9C0F;
+    font-size: 1.2em;
+    padding-left: 1em;
+  }
+
+  .bottomSection svg{
+    display: inline-flex;
+    padding-top: 1.2em;
+    padding-left: 2em;
+  }
+
+  .titleAndRatings>*{
+    display: inline;
+  }
+  .ratings button{
+    display: inline-flex;
+
+    margin-left: 6.5em;
+    background-color: #031733;
+    width: 4em;
+    height: 2em;
+    color: white;
+    font-size: 1.1em;
+    //vertical-align: center;
+    justify-content: center; /* center the content horizontally */
+    align-items: center;
+    border-radius: 10px;
+  }
+  .ratings button span svg{
+    padding-left: 1em;
+    vertical-align: center;
+  }
+
+
+
+
+  .searchCards{
+    border: 0px solid whitesmoke;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 0px 7px lightgrey;
+    border-radius: 1.5em;
+
+    //border-top-left-radius: 2em;
+    margin-top: 2.5em;
+    background: whitesmoke;
+  }
+
+
+
 }
+
+
+
+
+
+
+
+
+
 
 .cardElements>*{
   display: inline;
@@ -42,18 +436,6 @@ width: 20px;
 
 
 
-.searchCards{
-  border: 0px solid whitesmoke;
-  display: flex;
-  flex-direction: row;
-  box-shadow: 0px 0px 7px lightgrey;
-border-radius: 1.5em;
-
-  //border-top-left-radius: 2em;
-  margin-top: 2.5em;
-background: whitesmoke;
-}
-
 .searchCards .pane{
   flex: 1;
   //display: grid;
@@ -68,101 +450,4 @@ height: 100%;
 border-top-left-radius: 1.5em;
   border-bottom-left-radius: 1.5em;
 
-}
-
-.information h3{
-  font-size: 1.15em;
-}
-.resortLocation{
-  padding-top: 1em;
-  font-size: 1em;
-  color: dimgrey;
-}
-.icons svg{
-  padding-top: 1.5em;
-  padding-right: 1.5em;
-}
-.smallInfo >*{
-  display: block;
-}
-
-.smallInfo{
-  padding-top: 0em;
-  display:inline-block;
-}
-.smallInfoText{
-  font-size: 1em;
-//padding-left: 0.6em;
-  color: dimgrey;
-  padding-top: 1em;
-}
-.smallInfoText .text{
-padding-left: 0.5em;
-}
-.bottomSection>*{
-  display: inline;
-
-}
-
-.bottomSection{
-
-
-}
-
-.price>*{
-  display: inline;
-}
-.priceFee{
-
- font-family: "Gilroy Semi Bold";
-  //font-size: 0.2em;
-}
-.perNight{
-  padding-left: 0.7em;
-  font-family: "Gilroy Regular";
-  color: darkgray;
-font-size: 1em;
-}
-
-.bookings>*{
-  display: inline;
-}
-
-.bookings{
-  padding-left: 1em;
-}
-
-
-.bookings .book{
- color: #FF9C0F;
-  font-size: 1.2em;
-  padding-left: 1em;
-}
-
-.bottomSection svg{
-  display: inline-flex;
-  padding-top: 1.2em;
-  padding-left: 2em;
-}
-
-.titleAndRatings>*{
-  display: inline;
-}
-.ratings button{
-  display: inline-flex;
-
-  margin-left: 6.5em;
-  background-color: #031733;
-width: 4em;
-  height: 2em;
-  color: white;
-  font-size: 1.1em;
-  //vertical-align: center;
-  justify-content: center; /* center the content horizontally */
-  align-items: center;
-  border-radius: 10px;
-}
-.ratings button span svg{
-padding-left: 1em;
-vertical-align: center;
 }
